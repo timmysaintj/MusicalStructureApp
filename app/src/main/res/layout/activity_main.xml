@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BackgroundLayout"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/divider_main_1"
+        style="@style/DividerBars" />
+
+    <TextView
+        android:id="@+id/genre_country_tv"
+        style="@style/MainTextView"
+        android:layout_below="@id/divider_main_1"
+        android:text="@string/country" />
+
+    <View
+        android:id="@+id/divider_main_2"
+        style="@style/DividerBars"
+        android:layout_below="@id/genre_country_tv" />
+
+    <TextView
+        android:id="@+id/genre_indie_tv"
+        style="@style/MainTextView"
+        android:layout_below="@id/divider_main_2"
+        android:text="@string/indie" />
+
+    <View
+        android:id="@+id/divider_main_3"
+        style="@style/DividerBars"
+        android:layout_below="@id/genre_indie_tv" />
+
+    <TextView
+        android:id="@+id/genre_metal_tv"
+        style="@style/MainTextView"
+        android:layout_below="@id/divider_main_3"
+        android:text="@string/metal" />
+
+    <View
+        android:id="@+id/divider_main_4"
+        style="@style/DividerBars"
+        android:layout_below="@id/genre_metal_tv" />
+
+    <TextView
+        android:id="@+id/genre_rock_tv"
+        style="@style/MainTextView"
+        android:layout_below="@id/divider_main_4"
+        android:text="@string/rock" />
+
+    <View
+        android:id="@+id/divider_main_5"
+        style="@style/DividerBars"
+        android:layout_below="@id/genre_rock_tv" />
+
+    <ImageView
+        android:id="@+id/genre_play_button"
+        style="@style/PlayButton"
+        android:src="@mipmap/play_button"
+        android:contentDescription="@string/play_button" />
+
+    <ImageView
+        android:id="@+id/genre_pause_button"
+        style="@style/PauseButton"
+        android:src="@mipmap/pause_button"
+        android:contentDescription="@string/pause_button" />
+
+
+</RelativeLayout>

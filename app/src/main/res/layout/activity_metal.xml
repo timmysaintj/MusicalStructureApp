@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/genre_relative_layout"
+    tools:context=".MetalActivity">
+
+    <ImageView
+        android:id="@+id/anthrax_iv"
+        style="@style/genre_image_view"
+        android:contentDescription="@string/anthrax_iv"
+        android:src="@drawable/anthrax_metal" />
+
+    <TextView
+        android:id="@+id/anthrax_artist_tv"
+        style="@style/genre_tv_top"
+        android:layout_toEndOf="@id/anthrax_iv"
+        android:layout_toRightOf="@id/anthrax_iv"
+        android:text="@string/anthrax" />
+
+    <TextView
+        android:id="@+id/anthrax_album_tv"
+        style="@style/genre_tv_bottom"
+        android:layout_below="@id/anthrax_artist_tv"
+        android:layout_toEndOf="@id/anthrax_iv"
+        android:layout_toRightOf="@id/anthrax_iv"
+        android:text="@string/anthrax_album" />
+
+    <View
+        android:id="@+id/divider_metal_1"
+        style="@style/DividerBars"
+        android:layout_below="@id/anthrax_album_tv" />
+
+    <ImageView
+        android:id="@+id/fastway_iv"
+        style="@style/genre_image_view"
+        android:layout_below="@+id/anthrax_iv"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/fastway_iv"
+        android:src="@drawable/fastway_metal" />
+
+    <TextView
+        android:id="@+id/fastway_artist_tv"
+        style="@style/genre_tv_top"
+        android:layout_below="@+id/anthrax_album_tv"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/fastway_iv"
+        android:layout_toRightOf="@id/fastway_iv"
+        android:text="@string/fastway" />
+
+    <TextView
+        android:id="@+id/fastway_album_tv"
+        style="@style/genre_tv_bottom"
+        android:layout_below="@id/fastway_artist_tv"
+        android:layout_toEndOf="@id/fastway_iv"
+        android:layout_toRightOf="@id/fastway_iv"
+        android:text="@string/fastway_album" />
+
+    <ImageView
+        android:id="@+id/metal_play_button"
+        style="@style/PlayButton"
+        android:contentDescription="@string/play_button"
+        android:src="@mipmap/play_button" />
+
+    <ImageView
+        android:id="@+id/metal_pause_button"
+        style="@style/PauseButton"
+        android:contentDescription="@string/pause_button"
+        android:src="@mipmap/pause_button" />
+
+</RelativeLayout>

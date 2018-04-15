@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/genre_relative_layout"
+    tools:context=".MetalActivity">
+
+    <ImageView
+        android:id="@+id/led_zepplin_iv"
+        style="@style/genre_image_view"
+        android:contentDescription="@string/led_zepplin_iv"
+        android:src="@drawable/led_zepplin_rock" />
+
+    <TextView
+        android:id="@+id/led_zepplin_artist_tv"
+        style="@style/genre_tv_top"
+        android:layout_toEndOf="@id/led_zepplin_iv"
+        android:layout_toRightOf="@id/led_zepplin_iv"
+        android:text="@string/led_zepplin" />
+
+    <TextView
+        android:id="@+id/led_zepplin_album_tv"
+        style="@style/genre_tv_bottom"
+        android:layout_below="@id/led_zepplin_artist_tv"
+        android:layout_toEndOf="@id/led_zepplin_iv"
+        android:layout_toRightOf="@id/led_zepplin_iv"
+        android:text="@string/led_zepplin_album" />
+
+    <View
+        android:id="@+id/divider_rock_1"
+        style="@style/DividerBars"
+        android:layout_below="@id/led_zepplin_album_tv" />
+
+    <ImageView
+        android:id="@+id/queen_iv"
+        style="@style/genre_image_view"
+        android:layout_below="@+id/led_zepplin_iv"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/queen_iv"
+        android:src="@drawable/queen_rock" />
+
+    <TextView
+        android:id="@+id/queen_artist_tv"
+        style="@style/genre_tv_top"
+        android:layout_below="@+id/led_zepplin_album_tv"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/queen_iv"
+        android:layout_toRightOf="@id/queen_iv"
+        android:text="@string/queen" />
+
+    <TextView
+        android:id="@+id/queen_album_tv"
+        style="@style/genre_tv_bottom"
+        android:layout_below="@id/queen_artist_tv"
+        android:layout_toEndOf="@id/queen_iv"
+        android:layout_toRightOf="@id/queen_iv"
+        android:text="@string/queen_album" />
+
+    <ImageView
+        android:id="@+id/rock_play_button"
+        style="@style/PlayButton"
+        android:contentDescription="@string/play_button"
+        android:src="@mipmap/play_button" />
+
+    <ImageView
+        android:id="@+id/rock_pause_button"
+        style="@style/PauseButton"
+        android:contentDescription="@string/pause_button"
+        android:src="@mipmap/pause_button" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/genre_relative_layout"
+    tools:context=".CountryActivity">
+
+    <ImageView
+        android:id="@+id/country_girls_iv"
+        style="@style/genre_image_view"
+        android:contentDescription="@string/country_girls_iv"
+        android:src="@drawable/country_girls" />
+
+    <TextView
+        android:id="@+id/country_girls_artist_tv"
+        style="@style/genre_tv_top"
+        android:layout_toEndOf="@id/country_girls_iv"
+        android:layout_toRightOf="@id/country_girls_iv"
+        android:text="@string/country_girls" />
+
+    <TextView
+        android:id="@+id/country_girls_album_tv"
+        style="@style/genre_tv_bottom"
+        android:layout_below="@id/country_girls_artist_tv"
+        android:layout_toEndOf="@id/country_girls_iv"
+        android:layout_toRightOf="@id/country_girls_iv"
+        android:text="@string/country_girls_album" />
+
+    <ImageView
+        android:id="@+id/country_play_button"
+        style="@style/PlayButton"
+        android:contentDescription="@string/play_button"
+        android:src="@mipmap/play_button" />
+
+    <ImageView
+        android:id="@+id/country_pause_button"
+        style="@style/PauseButton"
+        android:contentDescription="@string/pause_button"
+        android:src="@mipmap/pause_button" />
+
+</RelativeLayout>
