@@ -1,0 +1,109 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#222222</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#fbc02d</item>
+    </style>
+
+    <!-- Background style -->
+    <style name="BackgroundLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#000000</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Style for the activity main textViews -->
+    <style name="MainTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">60sp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <!-- Main Activity divider bar style -->
+    <style name="DividerBars">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@android:color/holo_blue_dark</item>
+    </style>
+
+    <!-- Style for the play button -->
+    <style name="PlayButton">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginEnd">107dp</item>
+        <item name="android:layout_marginRight">107dp</item>
+    </style>
+
+    <!-- Style for the pause button -->
+    <style name="PauseButton">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginStart">107dp</item>
+        <item name="android:layout_marginLeft">107dp</item>
+    </style>
+
+    <!-- Song Items Relative Layout -->
+    <style name="SongItemRelativeLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingStart">16dp</item>
+    </style>
+
+    <!-- Genre ImageViews -->
+    <style name="genre_image_view">
+        <item name="android:layout_width">125dp</item>
+        <item name="android:layout_height">125dp</item>
+    </style>
+
+    <!-- Genre TextViews Top -->
+    <style name="genre_tv_top">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <!-- Genre TextViews Bottom -->
+    <style name="genre_tv_bottom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/holo_green_light</item>
+    </style>
+
+    <!-- Genre Relative Layout -->
+    <style name="genre_relative_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>

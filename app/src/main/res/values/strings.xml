@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">PP Media Player IV</string>
+
+    <!-- Category Strings -->
+    <string name="country">Country</string>
+    <string name="indie">Indie</string>
+    <string name="metal">Metal</string>
+    <string name="rock">Rock</string>
+
+    <!-- Label names -->
+    <string name="country_girls_songs">Country Girls Songs</string>
+    <string name="lagwagon_songs">Lagwagon Songs</string>
+    <string name="anthrax_songs">Anthrax Songs</string>
+    <string name="fastway_songs">Fastway Songs</string>
+    <string name="led_zepplin_songs">Led Zepplin Songs</string>
+    <string name="queen_songs">Queen Songs</string>
+
+    <!-- Artists Strings -->
+    <string name="anthrax">Anthrax</string>
+    <string name="country_girls">Country Girls</string>
+    <string name="fastway">Fastway</string>
+    <string name="lagwagon">Lagwagon</string>
+    <string name="led_zepplin">Led Zepplin</string>
+    <string name="queen">Queen</string>
+
+    <!-- Album Strings -->
+    <string name="anthrax_album">Madhouse: The Very Best Of</string>
+    <string name="country_girls_album">Songkran Special</string>
+    <string name="fastway_album">Fastway</string>
+    <string name="lagwagon_album">Hoss</string>
+    <string name="led_zepplin_album">Coda</string>
+    <string name="queen_album">Greatest Hits I &amp; II</string>
+
+    <!-- Content Description -->
+    <string name="play_button">Play Button</string>
+    <string name="pause_button">Pause Button</string>
+    <string name="country_girls_iv">Country Girls IV</string>
+    <string name="lagwagon_iv">Lagwagon IV</string>
+    <string name="anthrax_iv">Anthrax IV</string>
+    <string name="fastway_iv">Fastway IV</string>
+    <string name="led_zepplin_iv">Led Zepplin IV</string>
+    <string name="queen_iv">Queen IV</string>
+    <string name="song_item_image_iv">Song Item Image</string>
+
+</resources>
