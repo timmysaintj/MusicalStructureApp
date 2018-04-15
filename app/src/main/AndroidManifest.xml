@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tim.ppmediaplayeriv">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_music_score"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CountryActivity"
+            android:configChanges="orientation"
+            android:label="@string/country"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CountrySongsActivity"
+            android:configChanges="orientation"
+            android:label="@string/country_girls_songs"
+            android:parentActivityName=".CountryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IndieActivity"
+            android:configChanges="orientation"
+            android:label="@string/indie"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IndieSongsActivity"
+            android:configChanges="orientation"
+            android:label="@string/lagwagon_songs"
+            android:parentActivityName=".IndieActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MetalActivity"
+            android:configChanges="orientation"
+            android:label="@string/metal"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MetalSongsActivity"
+            android:configChanges="orientation"
+            android:label="@string/anthrax_songs"
+            android:parentActivityName=".MetalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MetalSongsActivityII"
+            android:configChanges="orientation"
+            android:label="@string/fastway_songs"
+            android:parentActivityName=".MetalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RockActivity"
+            android:configChanges="orientation"
+            android:label="@string/rock"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RockSongsActivity"
+            android:configChanges="orientation"
+            android:label="@string/led_zepplin_songs"
+            android:parentActivityName=".RockActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RockSongsActivityII"
+            android:configChanges="orientation"
+            android:label="@string/queen_songs"
+            android:parentActivityName=".RockActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+    </application>
+
+</manifest>
